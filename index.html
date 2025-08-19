@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> Королевство красоты </title>
+
+<link rel="stylesheet" href="form/form.css"> 
+</head>
+<body>
+
+    
+<div class="header">
+<div class="logo"></div>
+<div class="name"> Королевство красоты</div>
+<div class="nav">
+    <a href="#" class="a"><div>Главная</div></a>
+    <a href="#uslugi" class="b"><div>Услуги</div></a>
+    <a href="#work" class="c"><div>Работы</div></a>
+    <a href="#contact" class="d"><div>Контакты</div></a>
+</div>
+
+ <a href="javascript:void(0)" class="closebtn" onclick="openOrder()"><div class="button">Записаться</div></a>
+<div><a href="javascript:void(0)" class="closebtn" onclick="openNav()">Меню</a></div>
+</div>
+
+
+
+<div class="container">
+
+
+<div class="page">
+    
+        <img src="img/fon.jpg" class="fon">
+    <div class="top">
+    <div class="studia">Добро пожаловать<br>
+       в салон красоты<br>
+       <b> Королевство красоты!</b></div>
+    <a href="#zatem"><div class="button1">Записаться</div></a>
+    
+    
+
+
+</div>
+
+<div class="container1">
+<div class="salon"><h2>О салоне</h2>
+ Наше главное правило — работать так, чтобы вы с удовольствием посещали нас снова. 
+ «Королевство красоты»— место, где вы можете расслабиться, наслаждаясь приятным уходом и первоклассным обслуживанием. Несмотря на разнообразие услуг, здесь чувствуешь себя как дома. Уютные кабинеты, приветливые мастера, отсутствие суеты и современное оборудование для проведения процедур — вот за что нас любят клиенты. 
+ 
+ Мы придерживаемся комплексного подхода к созданию красоты. Вам не придется «выкраивать» время на посещение нескольких салонов с услугами одного профиля. Все, что нужно, вы найдете в одном здании!
+ </div>
+
+<div id="uslugi">
+    <div class="us"></div>
+<div class="uslugi"> Наши услуги</div>
+<div class="okna">
+    
+    <div class="manikur">
+        <img src="img/b.jpg" class="fotom">
+        <div class="text">   <h3>Маникюрный зал </h3>
+            Не только по лицу, но и по рукам складывается первое впечатление о человеке.<br>
+             Вот почему уход за ногтями и кожей рук требует особого внимания.
+             Мастера салона красоты владеют всеми современными техниками маникюра. </div>
+     <button class="accordion1 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+  
+ <img style='object-fit:fill; width: 100%; ' src="img/Price/MAN_IMG-20250819-WA0006.jpg" >
+  <img style='object-fit:fill; width: 100%; ' src="img/Price/MAN_IMG-20250819-WA0007.jpg" >
+
+
+  <script>
+      var acc = document.getElementsByClassName("accordion1");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+
+</div>
+</div>
+
+   
+
+
+    <div class="pedicur">
+        <img src="img/a.jpg" class="fotop">
+        <div class="text">   <h3>Педикюрный зал </h3>
+            Педикюр – необходим для аккуратных и ухоженных ступней. 
+            Мы делаем все, чтобы ваши пяточки были мягкими и нежными, 
+            а ногти на пальцах ног – аккуратными и привлекающими взгляд.
+             </div>
+ <button class="accordion2 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+ <img style='object-fit:fill; width: 100%; ' src="img/Price/MAN_IMG-20250819-WA0008.jpg" >
+ <img style='object-fit:fill; width: 100%; ' src="img/Price/MAN_IMG-20250819-WA0009.jpg" >
+
+    
+         
+ 
+
+      
+            <script>
+      var acc = document.getElementsByClassName("accordion2");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+
+</div>
+</div>
+        
+    
+
+
+    <div class="resnica">
+        <img src="img/i.jpg" class="fotor">
+        <div class="text">   <h3>Наращивание ресниц </h3>
+            Наращивание ресниц – быстрый способ обретения выразительного взгляда.
+             Метод позволяет сделать глаза яркими, а их очертания четкими.
+              Благодаря пушистым и красивым ресничкам утром можно не терять
+               времени на макияж, а вечером на снятие make-up с применением всего
+                арсенала известных косметических средств. </div>
+           <button class="accordion3 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/RESNIC_IMG-20250819-WA0010.jpg" >
+           <img style='object-fit:fill; width: 100%; ' src="img/Price/RESNIC_IMG-20250819-WA0011.jpg" >
+      
+            
+               <script>
+      var acc = document.getElementsByClassName("accordion3");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+
+</div>
+</div>
+
+
+    <div class="estetica">
+
+        <img src="img/estetica.jpg" class="fotoe">
+        <div class="text">   <h3>эстетика тела</h3>
+            Эстетика тела— это воздействие не только на тело,
+             но и на душу. Разогревая кожу, разминая мышцы, мастер также воздействует
+              и на нервную систему человека. Благодаря тому, 
+              что в коже находится огромное количество нервных окончаний,
+             наша нервная система получает значительную встряску,
+              успокаиваясь или наоборот приходя в тонус. </div>
+             <button class="accordion4 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+        
+           <img style='object-fit:fill; width: 100%; ' src="img/Price/MASSAGE_IMG-20250819-WA0014.jpg" >
+           <img style='object-fit:fill; width: 100%; ' src="img/Price/MASSAGE_IMG-20250819-WA0015.jpg" >
+       
+                 
+               <script>
+      var acc = document.getElementsByClassName("accordion4");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+        </div>
+    </div>
+
+
+    <div class="strig">
+        <img src="img/stig.jpg" class="fotos">
+        <div class="text">   <h3>Парикмахерский зал</h3>
+        Мастера нашего салона— профессиональные стилисты-парикмахеры,
+        которые помогут подобрать идеальную прическу, подходящую к вашей внешности, стилю и типу волос.
+</div>
+   <button class="accordion5 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0000.jpg" >
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0001.jpg" >
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0002.jpg" >
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0003.jpg" >
+        <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0004.jpg" >
+       <img style='object-fit:fill; width: 100%; ' src="img/Price/PAR_IMG-20250819-WA0005.jpg" >
+           
+                
+   
+
+    <script>
+      var acc = document.getElementsByClassName("accordion5");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+        </div>
+    </div>
+                   
+
+
+
+    
+
+    <div class="strig">
+        <img src="img/kosmet.jpg" class="fotos">
+        <div class="text">   <h3>Косметология</h3>
+            Салон предлагает услуги эстетической косметологии. К нам можно записаться на аппаратный пилинг,
+             чистку лица, художественное оформление бровей и ресниц, депиляции и  многое другое. </div>
+       
+                <button class="accordion6 accordion">Кликните для просмотра цен </button>
+ <div class="panel">
+         <img style='object-fit:fill; width: 100%; ' src="img/Price/KOSMET_IMG-20250819-WA0012.jpg" >
+            <img style='object-fit:fill; width: 100%; ' src="img/Price/DEPil_IMG-20250819-WA0013.jpg" >
+               
+                
+  <script>
+      var acc = document.getElementsByClassName("accordion6");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+    }
+  </script>
+        </div>
+                
+    
+        </div>    
+</div>
+</div>
+
+
+<div id="work">
+    <div class="us"></div>
+<div class="uslugi"> Наши работы</div>
+<div class="workus">
+<div class="work">Маникюр</div>
+
+<div class="manikurmf">
+    <img src="img/b.jpg" class="mf1">
+    <img src="img/manikur/mf1.jpg" class="mf1">
+    <img src="img/manikur/mf2.jpg" class="mf1">
+    <img src="img/manikur/mf3.jpg" class="mf1">
+    <img src="img/manikur/mf4.jpg" class="mf1">
+    
+</div>
+
+
+
+
+<div class="work">Педикюр</div>
+<div class="manikurmf">
+    <img src="img/pedikur/p1.jpg"  class="mf1">
+    <img src="img/pedikur/p2.jpg"  class="mf1">
+
+</div>
+
+
+
+<div class="work">Наращивание ресниц</div>
+<div class="manikurmf">
+    
+    <img src="img/resnic/r1.jpg"  class="mf1">
+    <img src="img/resnic/r2.jpg"  class="mf1">
+    <img src="img/resnic/r3.jpg"  class="mf1">
+    <img src="img/resnic/r4.jpg"  class="mf1">
+</div>
+
+
+
+<div class="work">Прически</div>
+
+  
+        <div class="manikurmf">
+            <img src="img/strig/1.jpg" alt="До" class="mf2">
+            <img src="img/strig/2.jpg" alt="До" class="mf2">
+        </div>
+
+
+
+<div class="work">Пирсинг/Татуаж </div>
+<div class="manikurmf">
+    <img src="img/tatuah/t1.jpg"  class="mf1">
+    <img src="img/tatuah/t2.jpg"  class="mf1">
+    <img src="img/tatuah/t3.jpg"  class="mf1">
+    
+</div>
+
+
+</div>
+
+</div>
+
+
+<div id="contact"></div>
+<div class="us"></div>
+<div class="uslugi"> Наши контакты</div>
+
+<div class="contact">
+<div> Королевство красоты</div>
+<div> Адресс Москва. ул. Братеевская 18 к1</div>
+<div> телефон  +7(916) 968-58-11</div>
+<div> teuchezhy@mail.ru</div>
+</div>
+
+
+
+<div id="myNav" class="overlay">
+<div><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Закрыть</a></div>
+  <div class="overlay-content"></div>
+<a href="#"> Главная</a>
+<a href="#uslugi" >Услуги</a>
+<a href="#work" >Работы</a>
+<a href="#contact" >Контакты</a>
+</div>
+</div>
+
+  <script>
+/* Открыть */
+function openNav() {
+  document.getElementById("myNav").style.height="30%";
+}
+
+/* Закрыть */
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+
+<div id="zatemn">
+    <div id="okno">
+    
+       <div class="zakaz">Заказать звонок</div>
+           <form action="send.php" method="POST">
+               <div> <input type="text" name="name" placeholder="Ваше имя " required/></div>
+               <div>  <input type="text" name="lastname" placeholder="Ваша фамилию" required /></div>
+               <div> <input type="text" name="tel" placeholder="Ваш номер телефона "required/></div>
+               <div> <input type="submit" value="Отправить заявку"/></div>
+           </form>
+       </div>
+    </div>
+   </div>
+   
+
+
+
+         <div id="oknofon">
+           <div><a href="javascript:void(0)" class="closebtn" onclick="closeOrder()">Закрыть</a></div>
+       <div class="zakaz"><a href="tel: +7(916)-968 58-11"> Позвонить  +7(916)-968 58-11</a></div>
+       <div class="works">Часы работы пн-пт с 10 до 22 <br> Сб-вс с 10 до 21</div>
+
+</div>
+  
+  <script>
+/* Открыть */
+function openOrder() {
+  document.getElementById("oknofon").style.display="block";
+}
+
+/* Закрыть */
+function closeOrder() {
+  document.getElementById("oknofon").style.display = "none";
+}
+</script>
+
+
+
+   
+
+
+
+   <div class="footor"></div>
+</div>
+</div>
+
+
+</body>
+
+
+</body>
+</html>

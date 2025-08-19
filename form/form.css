@@ -1,0 +1,677 @@
+.header{display:flex;
+    width: 100%;
+    height: 48px;
+    background-color: rgb(253, 154, 179);
+
+border-radius: 6px;
+margin: 0 auto;
+flex-direction: column;
+flex-wrap: wrap;
+position: fixed;
+
+z-index: 6;
+}
+.menu{display: none;
+    justify-content: flex-end;
+    padding: 6px, 2px, 6px, 2px;
+    max-width: 44px;
+color: #fff;
+border-radius: 8px;
+margin-top: 20px;
+border: 2px solid rgb(246, 255, 194);
+align-content: center;}
+
+.nav{display: flex;
+margin-top: 20px;
+position: relative;
+top: 0;}
+
+.a,.b,.c,.d{margin-left: 36px;
+position: relative;}
+
+.g,.u,.r,.k{margin: 0 auto;
+font-size: 1.4em;
+margin-bottom: 14px;
+position: relative;
+top: 20px;}
+.button{margin-left: 0px;
+border-radius: 8px;
+position: relative;
+top: 22px;
+padding: 2px;
+}
+
+.name{margin-left: 0;
+position: relative;
+left: 2px;
+top:10px;
+font-size: 1.6em;
+color: #fff;}
+.fon{
+  width: 100%;
+margin: 0 auto;
+height: 100%;
+margin-top: 48px;
+border-radius: 6px;
+
+
+
+}
+.studia{display: block;
+background-color: rgba(15, 25, 34, 0.692);
+width: 80%;
+max-width: 600px;
+margin: 0 auto;
+  color: #fff;
+font-size: 2em;
+font-size: 2em;
+  justify-content: center;
+  text-align: center;
+   position: relative;
+   bottom:16vw;
+  z-index: 2;
+  border-radius: 8px;
+}
+.creative{width: 70%;
+max-width: 360px;
+height: 140px;
+background-color: rgba(56, 55, 55, 0.301);
+color: aliceblue;
+position: relative;
+bottom: 400px;
+;
+
+margin-left: 0;
+}
+
+.manikur,.pedicur,.resnica,.strig,.estetica{width: 96%;
+max-width: 600px;
+height: 100%;
+
+border-radius: 10px;
+background-color: rgb(205, 229, 248);
+margin-bottom: 40px;
+position: relative;
+margin-left: 6px
+;}
+.fotor,.fotom,.fotop,.fotos,.fotoe{display: flex;
+    width: 90%;
+height: 320px;
+object-fit:cover;
+margin: 0 auto;
+justify-content: center;
+position: relative;
+top:20px;
+border-radius: 10px;}
+
+.fotop{object-position: bottom;}
+
+.okna{display:flex;
+justify-content: flex-start;
+justify-content: center;
+flex-wrap: wrap;
+position: relative;
+top: 20px;
+z-index: 1;
+
+}
+.container1{position: relative
+  ;
+bottom: 148px;}
+.text{width: 90%;
+  margin: 0 auto;
+position:relative;
+top: 20px;}
+
+body{background-color: rgb(143, 200, 247);
+}
+
+a{color:#fff;
+    text-decoration: none;
+    }
+    .p{font-size: 2.4em;}
+
+    .button,.button1{ 
+        
+    background-color: rgb(255, 174, 0);}
+
+  
+.button{display: inline;}
+    .uslugi{display:flex;
+        width: 80%;
+        max-width: 360px;
+    height: 100%;
+    padding-bottom: 6px;
+    align-content: center;
+    font-size: 2.4em;
+    justify-content: center;
+margin: 0 auto;
+    border-radius: 8px;
+    background-color: rgb(205, 229, 248);
+}
+.page{width: 100%;
+    max-width: 1280px;
+height: 100%;
+position: relative;
+}
+
+#navj{display: none;
+width: 60%;
+height: 220px;
+background-color: rgba(94, 98, 99, 0.611);
+position: fixed;
+flex-direction: column;
+align-content: center;
+left: 38%;
+top: 100px;
+padding-bottom: 20px;
+z-index: 2;
+
+}
+#navj:target{ display: flex;}
+
+#{display: none;
+width: 500px;
+height: 500px;}
+j:target{display: block;}
+.closer{display: block;
+  width: 60px;
+  height: 20px;
+  background-color: rgb(94, 92, 92);
+  color: #fff;
+    cursor: pointer;
+}
+.closer:hover{background-color: black;
+color: #fff;}
+.container{width: 100%;
+background-color: rgb(153, 216, 245);
+    
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footor{width: 100%;
+background-color: rgb(212, 227, 255);
+color: #fff;
+height: 20px;}
+.us{height: 80px;}
+
+/* Стили для текстового поля с кнопкой "Развернуть" */
+.limiter {
+    max-height: 260px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .limiter1{ max-height: 0px;
+    overflow: hidden;
+    position: relative;}
+
+  .limiter .bottom {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(
+      to bottom,
+      rgb(255 217 29 / 0%),
+      rgba(255 255 255,0.4)45%);
+    width: 100%;
+    height: 60px;
+    opacity: 1;
+    transition: .4s ease-in-out;
+  }
+   
+  [data-more-checker^="read-more"] {
+    opacity: 0;
+    position: absolute;
+    transition: 0.3s;
+  }
+  [data-more-checker^="read-more"]:checked ~ .limiter {
+    max-height: none;
+   
+  }
+  [data-more-checker^="read-more"]:checked ~ .limiter .bottom {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  [data-more-checker^="read-more"] ~ .read-more-button:before  {
+    content: "Развернуть »";
+    justify-content: center;
+  }
+  [data-more-checker^="read-more"]:checked ~ .read-more-button:before {
+    content: "Свернуть «";
+    justify-content: center;
+    transition: 0.3s;
+  }
+   
+  .read-more-button {
+    cursor: pointer;
+    display: flex;
+    color: #777;
+    text-decoration: underline;
+  justify-content: center;}
+
+    #zatem{
+        height: 200%;
+        background: rgba(42, 56, 136,0.3);
+        position: fixed;
+        bottom: 0px;
+        z-index: 4;
+        left: 0;
+        justify-content: center;
+        display: none;
+        
+        }
+        #zatem:target{display: block;}
+        
+        #oknofon{z-index: 100;
+            width: 90%;
+            max-width: 280px;
+            height: 30%;
+            display: none;
+            font-size: 22px;
+            background: rgba(47, 56, 71, 0.829);
+        position: fixed;
+        top:200px;
+        padding: 8px;
+        margin-left: 14px;
+        z-index: 5;
+        color: #fff;
+        justify-content: center;
+        border-radius: 6px;
+        border-bottom: 4px solid orange;
+        border-top: 4px solid silver;
+        }
+        
+ 
+
+
+
+         
+
+
+        #oknofon:target{display: block;}
+
+        #zatemn{background: rgba(61, 61, 61, 0.3);
+            width: 200vw;
+            height: 2000px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            margin: 0 auto;
+            z-index: 4;
+            display: none;
+           
+        }
+        #zatemn:target{display: block;}
+        #okno{
+        width: 90%;
+        max-width: 280px;
+        height: 260px;
+        background: rgba(47, 56, 71, 0.68);
+        position: fixed;
+        top: 200px;
+        margin-left: 14px;
+        z-index: 4;
+        justify-content: center;
+        border-radius: 6px;
+        border-bottom: 4px solid orange;
+        border-top: 4px solid silver;
+        
+        color: #fff;
+        
+        }
+        
+        #okno:target { display: block;}
+
+        input[type=submit]{background: rgb(248, 150, 64);
+            color:rgb(245, 242, 206);
+            border-radius: 10px;
+            border-top: 4px solid sandybrown;
+            margin-left: 30px;
+            font-size: 1.3em;
+            position: relative;
+            top: 20px;
+            }
+            input[type=text]{position: relative;
+                top: 20px;
+                left: 4px;
+            margin-bottom: 15px;
+
+                background: rgb(15, 48, 74);
+                opacity: 0.95;
+                color: rgb(255, 255, 255);
+                border: 1px solid silver;
+                border-radius: 4px;
+                font-size: 1.2em;
+                
+                
+            }
+            
+            :focus::-webkit-input-placeholder {opacity:0;}/* webkit */
+            :focus::-moz-placeholder          {opacity:0;}/* Firefox 19+ */
+            :focus:-moz-placeholder           {opacity:0;}/* Firefox 18- */
+            :focus:-ms-input-placeholder      {opacity:0;}/* IE */
+            
+            
+            ::placeholder{
+                color: rgba(255, 248, 222, 0.692);}
+        
+        
+.contact{width: 98%;
+max-width: 400px;
+height: 360px;
+background-color: rgb(205, 229, 248);
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;}
+
+.work{
+  margin: 0 auto;
+  justify-content: center;
+width: 80%;
+height: 22px;
+text-align: center;
+background-color: rgb(153, 216, 245);
+padding-top:}
+
+[data-more-checker^="read-more"]:checked ~ .limiter1 {
+  max-height: none;
+ 
+}
+[data-more-checker^="read-more"]:checked ~ .limiter1 .bottom {
+  opacity: 0;
+  transition: 0.3s;
+}
+[data-more-checker^="read-more"] ~ .read-more-button1:before  {
+  content: "Показать цены »";
+  width: 20%;
+  height: 8px;
+  max-width: 60px;
+  color: #fff;
+  background-color: rgb(63, 115, 184);
+  
+  margin: 0 auto;
+}
+[data-more-checker^="read-more"]:checked ~ .read-more-button1:before {
+  content: "Свернуть «";
+  justify-content: center;
+  transition: 0.3s;
+}
+.block1{position: relative;
+margin: 0 auto;}
+
+.coast{margin-top: 46px;
+justify-content: center;}
+#uslugi,#work,#contact{margin-top: 0;
+height: 100%;}
+.us{height: 52px;}
+
+.workus{padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+height: 100%;
+justify-content: center;
+background-color: rgb(205, 229, 248);
+margin-top: 20px;}
+
+.mf1{width: 90%;
+  max-width: 360px;
+height: 290px;
+margin-top: 4px;
+object-fit: cover;
+margin-left: 4px;}
+
+.manikurmf{display: flex;
+justify-content: flex-start;
+justify-content: center;
+flex-wrap: wrap;
+padding: 10px;}
+.coastfon{background-image: url(costfon.jpg);
+height: 600px;
+background-repeat: no-repeat;}
+
+
+.cmn0{display: flex;
+justify-content: flex-start;
+justify-content: center;
+flex-wrap: wrap;}
+
+.cpn0{display: flex;
+justify-content: flex-start;
+justify-content: center;
+flex-wrap: wrap;
+background-color: rgb(51, 59, 71);
+color: #fff;
+justify-content: space-around;}
+.mn0{width: 100%;
+text-align: center;}
+.cm1{;
+   
+}
+.cmn1{width: 90%;
+max-width: 260px;
+
+padding-left: 20px;}
+.cm2{border-bottom: 2px solid rgb(250, 218, 157);
+width: 40%;
+padding-left: 20px;
+margin-left: 20px;
+}
+.cmn2{}
+.cp2{border-bottom: 2px solid rgb(255, 208, 121);
+width: 80%;
+;}
+.cp4{border-bottom: 2px solid rgb(242, 211, 153);
+width: 80%;}
+.cs{display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  
+}
+.cmn4{display: flex;}
+
+.cm4{width: 48%;
+text-align: center;
+border-bottom: 1px solid rgb(242, 211, 153);}
+.cm5{ width: 48%;
+  text-align: center;
+  border-bottom: 1px solid rgb(242, 211, 153);
+}
+.cm6{ width: 48%;
+text-align: center;
+border-bottom: 1px solid rgb(242, 211, 153);
+float: right;}
+
+.cpn1{background-color: rgb(51, 59, 71);
+color: #fff;
+margin: 0 auto;}
+
+.salon{width: 96%;
+margin: 0 auto;
+height: 100%;
+padding-left: 2%;
+padding-right: 2%;
+background-color: rgb(205, 229, 248);
+border-radius: 6px;
+padding-bottom: 20px;
+padding-top: 0;
+
+}
+
+.mf2{width: 90%;
+  max-width: 360px;
+  height: 100%;
+object-fit: cover;
+margin-left: 4px;
+margin-top: 4px;}
+
+.buttonorder{ background-color: rgb(255, 174, 0);
+width: 28%;
+border-radius: 8px;
+text-align: center;
+margin-left: 20px;
+margin-top: 10px;}
+
+.zakaz{padding-top: 20px;
+margin-left: 20px;}
+
+h3{position: relative;
+top:8px;
+line-height: 0.6em;
+text-align: center;}
+h2{position: relative;
+  top: 10px;
+  line-height: 0.6em;
+text-align: center;}
+
+.button1{display:block;
+  width: 40%;
+  max-width: 120px;
+  justify-content: center;
+   margin: 0 auto;
+  position: relative;
+bottom: 8vw;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.4em;
+  
+ z-index: 2;}
+.top{width: 100%;
+  position: relative;
+bottom: 90px;}
+
+
+  .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-top: 30px;
+}
+
+/* Добавить цвет фона для кнопки, если она нажата (добавить .активный класс с JS), а при наведении на него курсора мыши (наведите курсор) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Стиль аккордеон панели. Примечание: скрыто по умолчанию */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.overlay {
+  /* Высота и ширина зависят от того, как вы хотите показать наложение (см. JS ниже) */   
+  height: 100%;
+  width: 0;
+  position: fixed; /* Оставаться на месте */
+  z-index: 100; /* Сидеть на вершине */
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.498); /* Черный резервный цвет */
+  background-color: rgba(0, 0, 0, 0.623); /*Черный с непрозрачностью */
+  overflow-x: hidden; /* Отключить горизонтальную прокрутку */
+  transition: 0.5s;
+   /* 0.5 секунды эффект перехода, чтобы скользить в или скользить вниз по наложению (высота или ширина, в зависимости от показа) */
+}
+
+/* Расположите содержимое внутри наложения */
+.overlay-content {
+  position: relative;
+  /* 25% сверху */
+  width: 100%; /* 100% ширина */
+  text-align: center; /* Центрированный текст/ссылки */
+ margin-top: 30px;
+   z-index: 100; /* 30px верхнее поле, чтобы избежать конфликта с кнопкой закрытия на небольших экранах */
+}
+
+/* Навигационные ссылки внутри наложения */
+.overlay a {
+  padding: 8px;
+  
+  text-decoration: none;
+  font-size: 24px;
+  color: #d9d4d4;
+  display: block; /* Блок дисплея вместо встроенного */
+  transition: 0.3s; 
+  z-index: 100;/* Эффекты перехода при наведении (цвет) */
+}
+
+/* При наведении курсора мыши на навигационные ссылки измените их цвет */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Расположите кнопку закрыть (верхний правый угол) */
+.overlay .closebtn {
+ position: absolute;
+  top: 4px;
+  right: 2px;
+
+  font-size: 14px;
+   z-index: 100; 
+}
+
+
+#myNav{
+  height: 0%;
+  width: auto;
+
+
+}
+/* Если высота экрана меньше 450 пикселей, измените размер шрифта ссылок и снова установите кнопку закрыть, чтобы они не перекрывались */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 780px) {.name{font-size: 1em;}
+.nav{display: none;}
+.menu{display: block;}
+.studia{position: relative;
+bottom: 26vw;
+font-size: 2em;}.button1{position: relative;
+  bottom: 24vw;}.fon{height: 400px;
+    object-fit: cover;}}
+
+@media screen and (max-width: 440px) {.uslugi{font-size: 1.8em;}
+.studia{position: relative;
+bottom: 29vw;
+ width: 98%;
+font-size: 1.8em;}.button1{position: relative;
+  bottom: 27vw}.fon{height: 100%;
+    }}
+
+@media screen and (max-width: 340px) {.studia{
+  position: relative;
+  bottom: 30vw;
+  font-size: 1.4em;}.button1{position: relative;
+    bottom: 28vw;}}
+@media screen and (min-width:780px) {.studia{font-size: 3em;
+position: relative;
+bottom:280px;
+}.fon{height: 720px;
+  object-fit: cover;}
+.button1{position: relative;
+  bottom: 260px}}  
+
