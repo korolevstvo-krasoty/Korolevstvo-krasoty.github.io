@@ -1,5 +1,7 @@
 .header{display:flex;
-    width: 100%;
+      top:0;
+    width: 90%;
+      left: 5%;
     height: 48px;
     background-color: rgb(253, 154, 179);
 
@@ -674,6 +676,7 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
 
 
