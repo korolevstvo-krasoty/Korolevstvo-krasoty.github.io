@@ -1,7 +1,7 @@
 .header{display:flex;
       top:0;
     width: 100%;
-      
+        max-width: 1280px;
     height: 48px;
     background-color: rgb(253, 154, 179);
 
@@ -581,7 +581,7 @@ bottom: 90px;}
   width: 0;
   position: fixed; /* Оставаться на месте */
   z-index: 100; /* Сидеть на вершине */
-  left: 0;
+  right: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.498); /* Черный резервный цвет */
   background-color: rgba(0, 0, 0, 0.623); /*Черный с непрозрачностью */
@@ -677,6 +677,7 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
 
 
