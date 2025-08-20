@@ -578,7 +578,7 @@ bottom: 90px;}
 .overlay {
   /* Высота и ширина зависят от того, как вы хотите показать наложение (см. JS ниже) */   
   height: 0;
-  widthth: auto
+  width: auto;
   position: fixed; /* Оставаться на месте */
   z-index: 100; /* Сидеть на вершине */
   right: 0;
@@ -677,6 +677,7 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
 
 
