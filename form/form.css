@@ -564,11 +564,11 @@ bottom: 90px;}
 
 /* Стиль аккордеон панели. Примечание: скрыто по умолчанию */
 .panel {
-  padding: 0 18px;
+  whdth:100%;
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.4s ease-out;
 }
 
 
@@ -674,4 +674,5 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
