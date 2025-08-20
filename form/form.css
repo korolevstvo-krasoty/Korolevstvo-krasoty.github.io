@@ -265,7 +265,7 @@ height: 20px;}
         
         #oknofon{z-index: 100;
             width: 90%;
-            max-width: 280px;
+            max-width: 380px;
             height: 30%;
             display: none;
             font-size: 22px;
@@ -674,5 +674,6 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
 
