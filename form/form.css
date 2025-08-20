@@ -531,7 +531,7 @@ h2{position: relative;
 text-align: center;}
 
 .button1{display:block;
-  width: 40%;
+  width: auto%;
   max-width: 120px;
   justify-content: center;
    margin: 0 auto;
@@ -577,8 +577,8 @@ bottom: 90px;}
 
 .overlay {
   /* Высота и ширина зависят от того, как вы хотите показать наложение (см. JS ниже) */   
-  height: 100%;
-  width: 0;
+  height: 0;
+  widthth: auto
   position: fixed; /* Оставаться на месте */
   z-index: 100; /* Сидеть на вершине */
   right: 0;
@@ -677,6 +677,7 @@ bottom:280px;
   object-fit: cover;}
 .button1{position: relative;
   bottom: 260px}}  
+
 
 
 
